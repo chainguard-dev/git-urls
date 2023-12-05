@@ -220,7 +220,7 @@ func TestParse(t *testing.T) {
 }
 
 func TestTooLong(t *testing.T) {
-	longURL := "https://example.com/" + strings.Repeat("a", 2048)
+	longURL := "https://example.com/" + strings.Repeat("a", 4049)
 	_, err := ParseScp(longURL)
 	if err == nil {
 		t.Errorf("Parse(%q) = nil, want error", longURL)
