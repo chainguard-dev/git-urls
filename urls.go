@@ -31,7 +31,7 @@ import (
 )
 
 // Max length of the scpUrl to prevent reDOS attacks
-const maxLen = 1000
+const maxLen = 2048
 
 var (
 	// scpSyntax was modified from https://golang.org/src/cmd/go/vcs.go.
