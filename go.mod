@@ -1,3 +1,3 @@
-module github.com/whilp/git-urls
+module github.com/chainguard-dev/git-urls
 
 go 1.19
