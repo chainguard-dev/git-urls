@@ -7,3 +7,8 @@ rules:
   dependabot-cooldown:
     config:
       days: 3
+  # Cosmetic pedantic-only findings — suppressed at the repo level.
+  anonymous-definition:
+    disable: true
+  concurrency-limits:
+    disable: true
